@@ -1,0 +1,56 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>testing page</title>
+    <link rel="stylesheet" href="page.css" />
+    <!-- <script src="srm.js "></script> -->
+  </head>
+  <body>
+    <div>
+      <nav class="nav">
+        <div class="navbar">
+          <h2 class="nav-title">Fly to Sky</h2>
+          <div class="menu-head">
+            <div class="menu-btn">
+              <li class="btn"></li>
+              <li class="btn"></li>
+              <li class="btn"></li>
+            </div>
+          </div>
+          <div class="nav-lists">
+            <a href="#" class="nav-link active"
+              ><li class="nav-list">HOME</li></a
+            >
+            <a href="#" class="nav-link"><li class="nav-list">ABOUT</li></a>
+            <a href="#" class="nav-link"><li class="nav-list">SERVICES</li></a>
+            <a href="#" class="nav-link"><li class="nav-list">PROJECTS</li></a>
+            <!-- <a href="#" class="nav-link"><li class="nav-list"></li></a> -->
+          </div>
+        </div>
+      </nav>
+
+      <div class="cntr-title">
+        <h3 class="line2">lets start</h3>
+        <p class="line" style="margin-bottom: 20px"></p>
+        <h3 class="h3-title">My first web page</h3>
+        <h3 class="h3-title">Explore the world</h3>
+      </div>
+      <div class="part-2">
+        <img src="./img/download 1.jpg" alt="" srcset="" />
+        <img src="./img/download.jpg" alt="" srcset="" />
+        <img src="./img/images 1.jpggit init" alt="" srcset="" />
+        <img src="./img/hills 2.jpg" alt="" srcset="" />
+      </div>
+    </div>
+    <script>
+      const menubtn = document.querySelector(".menu-btn");
+      const navlist = document.querySelector(".nav-lists");
+      menubtn.addEventListener("click", () => {
+        navlist.classList.toggle("mobile-view");
+      });
+      // console.log(menubtn, navlist);
+    </script>
+  </body>
+</html>
